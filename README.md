@@ -469,3 +469,34 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 </table>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd><br><br>
 ```
+## markdown使用Emoji表情
+有两种方法可以插入Emoji表情：
+
+1. 使用Unicode编码：在markdown编辑器中输入对应的Unicode编码，如：`&#x1F600;`，&#x1F600;即可插入一个笑脸。
+
+2. 使用Emoji语法：在markdown编辑器中输入`:smile:`，:smile:即可插入一个笑脸。(需要在编辑器中安装Emoji插件)
+
+Emoji语法参考：https://www.webpagefx.com/tools/emoji-cheat-sheet/
+
+使用表情符号简码
+一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。
+这些以冒号开头和结尾，并包含表情符号的名称。
+
+去露营了！ :tent: 很快回来。
+
+真好笑！ :joy:
+``` markdown
+去露营了！ :tent: 很快回来。
+
+真好笑！ :joy:
+```
+canvas绘制的表情符号
+一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。
+这些以冒号开头和结尾，并包含表情符号的名称。
+
+:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :hat: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :sun: :tiger: :watermelon: :wink: :zap:
+
+``` markdown
+:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :hat: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :sun: :tiger: :watermelon: :wink: :zap:
+```
+---
