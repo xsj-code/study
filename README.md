@@ -128,6 +128,8 @@ _斜体_
 
 ## 高亮（markdown不支持）
 
+（一些笔记软件支持例如[思源笔记](https://b3log.org/siyuan/)）
+
 ==高亮==
 
 ``` markdown
@@ -199,7 +201,7 @@ _斜体_
 
 X^2^（一些笔记软件支持例如[思源笔记](https://b3log.org/siyuan/)）
 
-可用HTML标签`<sup>`或`^`表示上角标。
+可用HTML标签`<sup>`表示上角标。
 
 X<sup>2</sup>
 
@@ -214,7 +216,7 @@ X<sup>2</sup>
 
 H~2~O（一些笔记软件支持例如[思源笔记](https://b3log.org/siyuan/)）
 
-可用HTML标签`<sub>`或`~`表示下角标。
+可用HTML标签`<sub>`表示下角标。
 
 H<sub>2</sub>O
 
@@ -391,8 +393,8 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 - `<strong>`：加粗
 - `<em>`：斜体
 - `<del>`：删除线
-- `<sub>`：下角标
 - `<sup>`：上角标
+- `<sub>`：下角标
 - `<code>`：代码
 - `<pre>`：预格式化文本
 - `<blockquote>`：块引用
@@ -428,8 +430,8 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 <strong>加粗</strong><br>
 <em>斜体</em><br>
 <del>删除线</del><br>
-参考<sub>下角标</sub><br>
 参考<sup>上角标</sup><br>
+参考<sub>下角标</sub><br>
 <code>代码</code><br>
 <br>
 <pre>预格式化文本</pre><br>
@@ -470,7 +472,6 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 
 ``` markdown
 <a href="https://www.example.com">链接名称</a>
-
 <img src="https://www.example.com/image.jpg" alt="图片名称" width="200px" />
 <br>
 <hr>
@@ -487,6 +488,8 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 <strong>加粗</strong><br>
 <em>斜体</em><br>
 <del>删除线</del><br>
+参考<sup>上角标</sup><br>
+参考<sub>下角标</sub><br>
 <code>代码</code><br>
 <br>
 <pre>预格式化文本</pre><br>
@@ -550,10 +553,10 @@ canvas绘制的表情符号
 一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。
 这些以冒号开头和结尾，并包含表情符号的名称。
 
-:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :hat: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :sun: :tiger: :watermelon: :wink: :zap:
+:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :tiger: :watermelon: :wink: :zap:
 
 ``` markdown
-:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :hat: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :sun: :tiger: :watermelon: :wink: :zap:
+:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :tiger: :watermelon: :wink: :zap:
 ```
 ---
 ## 流程图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（[Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid)）
