@@ -64,7 +64,7 @@
 
 ---
 
-### 任务列表（需要安装插件来自 GitHub Flavored Markdown）
+### 任务列表（需要安装插件来自 [Markdown Checkboxes](https://github.com/mjbvz/vscode-markdown-checkboxes)）
 
 任务列表是标记为[ ]或[x]（未完成或完成）的项目的列表。例如：
 
@@ -182,7 +182,7 @@ _斜体_
 
 ---
 
-## 脚注(markdown不支持)
+## 脚注(markdown不支持)（脚注功能需要安装插件来自 [Markdown Footnotes](https://github.com/mjbvz/vscode-markdown-footnotes)）
 
 这是脚注[^1]
 
@@ -192,27 +192,37 @@ _斜体_
 这是脚注[^1]
 
 [^1]: 脚注内容
+```
+---
+
+## 上角标（markdown不支持）
+
+X^2^（一些笔记软件支持例如[思源笔记](https://b3log.org/siyuan/)）
+
+可用HTML标签`<sup>`或`^`表示上角标。
+
+X<sup>2</sup>
+
+``` markdown
+X^2^
+X<sup>2</sup>
 ```
 
 ---
 
 ## 下角标（markdown不支持）
 
-H~2~O
+H~2~O（一些笔记软件支持例如[思源笔记](https://b3log.org/siyuan/)）
+
+可用HTML标签`<sub>`或`~`表示下角标。
+
+H<sub>2</sub>O
 
 ``` markdown
 H~2~O
+H<sub>2</sub>O
 ```
 
----
-
-## 上角标（markdown不支持）
-
-X^2^
-
-``` markdown
-X^2^
-```
 
 ---
 
@@ -381,6 +391,8 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 - `<strong>`：加粗
 - `<em>`：斜体
 - `<del>`：删除线
+- `<sub>`：下角标
+- `<sup>`：上角标
 - `<code>`：代码
 - `<pre>`：预格式化文本
 - `<blockquote>`：块引用
@@ -416,6 +428,8 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 <strong>加粗</strong><br>
 <em>斜体</em><br>
 <del>删除线</del><br>
+参考<sub>下角标</sub><br>
+参考<sup>上角标</sup><br>
 <code>代码</code><br>
 <br>
 <pre>预格式化文本</pre><br>
