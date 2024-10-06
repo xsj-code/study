@@ -155,7 +155,7 @@ _斜体_
 
 ---
 
-## 脚注
+## 脚注(markdown不支持)
 
 这是脚注[^1]
 
@@ -237,12 +237,13 @@ print("Hello, world!")
 ```
 
 可以做源码展示：
-``` markdown 
+``` markdown  
 这是代码块,可以指定特定语法markdown就是语法
 ```
 
 ```` markdown 
-``` markdown这是代码块,可以指定特定语法markdown就是语法
+``` markdown
+这是代码块,可以指定特定语法markdown就是语法
       代码块```
 ````
 ---
