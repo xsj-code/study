@@ -7,68 +7,82 @@
 ## 标题
 
 ### 这是三级标题
+
 ``` markdown
 ### 这是三级标题
 ```
+
 #### 这是四级标题
+
 ``` markdown
 #### 这是四级标题
 ```
+
 ---
 
 ## 有序列表
 
 1. 这是有序列表
-2. 
+2.
+
 ```` markdown
 1. 这是有序列表
 2. 
 ````
+
 ---
 
 ## 无序列表
 
 * 这是无序列表*号
-+ 这是无序列表+号
-- 这是无序列表-号
+
+* 这是无序列表+号
+
+* 这是无序列表-号
 
 ```` markdown
 * 这是无序列表 *号
 + +号
 - -号
 ````
+
 ---
+
 ## 列表嵌套
 
-- 第一层
-  - 第二层
-    - 第三层
+* 第一层
+  * 第二层
+    * 第三层
+
 ```` markdown
 - 第一层
   - 第二层
     - 第三层
 ````
+
 ---
 
 ### 任务列表（需要安装插件来自 GitHub Flavored Markdown）
 
 任务列表是标记为[ ]或[x]（未完成或完成）的项目的列表。例如：
 
-- [ ] 未完成任务列表
+* [ ] 未完成任务列表
+
 ``` markdown
 - [ ] 
 ```
 
-- [x] 已完成任务列表
+* [x] 已完成任务列表
+
 ``` markdown
 - [x] 
 ```
 
-- [ ] 这是一个任务列表项
-- [ ] 需要在前面使用列表的语法
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] 未完成
-- [x] 完成
+* [ ] 这是一个任务列表项
+* [ ] 需要在前面使用列表的语法
+* [ ] normal **formatting**, @mentions, #1234 refs
+* [ ] 未完成
+* [x] 完成
 
 ```markdown
 - [ ] 这是一个任务列表项
@@ -89,9 +103,11 @@
 ``` markdown
 > 这是引用
 ```
+
 ---
 
 ## 字体
+
 **加粗**
 
 _斜体_
@@ -105,6 +121,39 @@ _斜体_
 
 ~~删除线~~
 ```
+
+---
+
+## 高亮
+
+==高亮==
+
+``` markdown
+==高亮==
+```
+
+---
+
+## 高亮背景色指定颜色
+
+## 字体大小
+
+<font size="5">字体大小为5</font>
+
+``` markdown
+<font size="5">字体大小为5</font>
+```
+
+---
+
+## 字体颜色
+
+<font color="red">红色字体</font>
+
+``` markdown
+<font color="red">红色字体</font>
+```
+
 ---
 
 ## 链接
@@ -114,7 +163,9 @@ _斜体_
 ``` markdown
 [链接名称](https://www.example.com) 
 ```
+
 ---
+
 ## 高级链接
 
 [链接名称][id]
@@ -126,7 +177,9 @@ _斜体_
 
 [id]: https://www.example.com "可选的标题"
 ```
+
 ---
+
 ## 图片
 
 ![图片名称](https://www.example.com/image.jpg)
@@ -134,12 +187,12 @@ _斜体_
 ``` markdown
 ![图片名称](https://www.example.com/image.jpg) 
 ```
+
 ---
+
 ## 高级图片
 
 ![图片名称][id]
-
-[id]: https://www.example.com/image.jpg "可选的标题"
 
 ``` markdown
 ![图片名称][id]
@@ -166,7 +219,9 @@ _斜体_
 
 [^1]: 脚注内容
 ```
+
 ---
+
 ## 下角标（markdown不支持）
 
 H~2~O
@@ -174,6 +229,7 @@ H~2~O
 ``` markdown
 H~2~O
 ```
+
 ---
 
 ## 上角标（markdown不支持）
@@ -183,6 +239,7 @@ X^2^
 ``` markdown
 X^2^
 ```
+
 ---
 
 ## 注释
@@ -192,6 +249,7 @@ X^2^
 ``` markdown
 <!-- 这是注释 -->
 ```
+
 ---
 
 ## 表格
@@ -207,6 +265,7 @@ X^2^
 | 单元格1 | 单元格2 | 单元格3 |<br/>
 | 单元格4 | 单元格5 | 单元格6 |  
 ```
+
 表格格式对齐：
 
 | 左对齐 | 右对齐 | 居中对齐 |
@@ -218,6 +277,7 @@ X^2^
 | :----- | -----: | :------: |
 | 左侧   | 右侧   | 居中     |
 ```
+
 ---
 
 ## 代码块
@@ -237,18 +297,21 @@ print("Hello, world!")
 ```
 
 可以做源码展示：
+
 ``` markdown  
 这是代码块,可以指定特定语法markdown就是语法
 ```
 
-```` markdown 
+```` markdown
 ``` markdown
 这是代码块,可以指定特定语法markdown就是语法
       代码块```
 ````
+
 ---
 
 ## 转义字符
+
 定义常用的转义字符及其对应的表示形式
 
 | 转义字符 | 对应的表示形式 |
@@ -280,9 +343,11 @@ _   底线 - 在Markdown中用于斜体或下划线，常用于变量命名。
 .   英文句点 - 表示小数点或类属性的分隔符。
 !   惊叹号 - 在某些语法中表示非操作符或强调。
 ```
+
 ---
 
 ## katex公式
+
 $$E=mc^2$$
 $$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 
@@ -290,8 +355,10 @@ $$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 $$E=mc^2$$
 $$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 ```
-katex公式的语法参考：https://katex.org/docs/supported.html
+
+katex公式的语法参考：<https://katex.org/docs/supported.html>
 ---
+
 ## mathjax公式
 
 $$\begin{align*}
@@ -606,4 +673,3 @@ Add gantt diagram to demo page      :20h
 Add another diagram to demo page    :48h
 ```
 ---
-
