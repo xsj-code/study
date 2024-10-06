@@ -14,12 +14,12 @@
     - [任务列表（需要安装插件来自 Markdown Checkboxes）](#任务列表需要安装插件来自-markdown-checkboxes)
   - [引用](#引用)
   - [字体](#字体)
-  - [高亮（markdown不支持）](#高亮markdown不支持)
+  - [高亮（VSCode markdown预览不支持）（markdown不支持）](#高亮vscode-markdown预览不支持markdown不支持)
   - [链接](#链接)
   - [高级链接](#高级链接)
   - [图片](#图片)
   - [高级图片](#高级图片)
-  - [脚注(markdown不支持)（脚注功能需要安装插件来自 Markdown Footnotes）](#脚注markdown不支持脚注功能需要安装插件来自-markdown-footnotes)
+  - [脚注（VSCode markdown预览不支持）(markdown不支持)](#脚注vscode-markdown预览不支持markdown不支持)
   - [上角标（markdown不支持）](#上角标markdown不支持)
   - [下角标（markdown不支持）](#下角标markdown不支持)
   - [注释](#注释)
@@ -169,7 +169,7 @@ _斜体_
 
 ---
 
-## 高亮（markdown不支持）
+## 高亮（VSCode markdown预览不支持）（markdown不支持）
 
 （一些笔记软件支持例如[思源笔记](https://b3log.org/siyuan/)）
 
@@ -227,7 +227,9 @@ _斜体_
 
 ---
 
-## 脚注(markdown不支持)（脚注功能需要安装插件来自 [Markdown Footnotes](https://github.com/mjbvz/vscode-markdown-footnotes)）
+## 脚注（VSCode markdown预览不支持）(markdown不支持)
+
+**脚注功能需要安装插件来自 [Markdown Footnotes](https://github.com/mjbvz/vscode-markdown-footnotes)**
 
 这是脚注[^1]
 
@@ -283,7 +285,7 @@ H<sub>2</sub>O
 
 ## 表格
 
-| 表头1 | 表头2 | 表头3 |
+| 表头1 | 表头2 |表头3 |
 | --- | --- | --- |
 | 单元格1 | 单元格2 | 单元格3 |
 | 单元格4 | 单元格5 | 单元格6 |
