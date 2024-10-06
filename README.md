@@ -1,5 +1,48 @@
 # Markdown 语法练习
 
+## 目录
+
+- [Markdown 语法练习](#markdown-语法练习)
+  - [目录](#目录)
+  - [段落和换行符](#段落和换行符)
+  - [标题](#标题)
+    - [这是三级标题](#这是三级标题)
+      - [这是四级标题](#这是四级标题)
+  - [有序列表](#有序列表)
+  - [无序列表](#无序列表)
+  - [列表嵌套](#列表嵌套)
+    - [任务列表（需要安装插件来自 Markdown Checkboxes）](#任务列表需要安装插件来自-markdown-checkboxes)
+  - [引用](#引用)
+  - [字体](#字体)
+  - [高亮（markdown不支持）](#高亮markdown不支持)
+  - [链接](#链接)
+  - [高级链接](#高级链接)
+  - [图片](#图片)
+  - [高级图片](#高级图片)
+  - [脚注(markdown不支持)（脚注功能需要安装插件来自 Markdown Footnotes）](#脚注markdown不支持脚注功能需要安装插件来自-markdown-footnotes)
+  - [上角标（markdown不支持）](#上角标markdown不支持)
+  - [下角标（markdown不支持）](#下角标markdown不支持)
+  - [注释](#注释)
+  - [表格](#表格)
+  - [表格格式对齐](#表格格式对齐)
+  - [代码块](#代码块)
+    - [行内代码块](#行内代码块)
+    - [代码块展示](#代码块展示)
+  - [转义字符](#转义字符)
+  - [katex公式](#katex公式)
+  - [katex公式的语法参考：https://katex.org/docs/supported.html](#katex公式的语法参考httpskatexorgdocssupportedhtml)
+  - [mathjax公式](#mathjax公式)
+  - [mathjax公式的语法参考：https://docs.mathjax.org/en/v2.7-latest/tex.html](#mathjax公式的语法参考httpsdocsmathjaxorgenv27-latesttexhtml)
+  - [latex公式(markdown不支持)](#latex公式markdown不支持)
+  - [latex公式的语法参考：https://www.latex-project.org/help/documentation/](#latex公式的语法参考httpswwwlatex-projectorghelpdocumentation)
+  - [支持的HTML标签](#支持的html标签)
+  - [markdown使用Emoji表情](#markdown使用emoji表情)
+  - [流程图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（Markdown Preview Mermaid Support）](#流程图vscode-markdown预览不支持需要安装插件来自-mermaidmarkdown-preview-mermaid-support)
+  - [时序图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（Markdown Preview Mermaid Support）](#时序图vscode-markdown预览不支持需要安装插件来自-mermaidmarkdown-preview-mermaid-support)
+  - [甘特图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（Markdown Preview Mermaid Support）](#甘特图vscode-markdown预览不支持需要安装插件来自-mermaidmarkdown-preview-mermaid-support)
+
+---
+
 ## 段落和换行符
 
 段落只是一行或多行连续的文本。在 markdown 源代码中，段落由多个空行分隔。在Typora中，您只需按下 Return 即可创建新段落。
@@ -537,27 +580,6 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 
 Emoji语法参考：https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
-使用表情符号简码
-一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。
-这些以冒号开头和结尾，并包含表情符号的名称。
-
-去露营了！ :tent: 很快回来。
-
-真好笑！ :joy:
-``` markdown
-去露营了！ :tent: 很快回来。
-
-真好笑！ :joy:
-```
-canvas绘制的表情符号
-一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。
-这些以冒号开头和结尾，并包含表情符号的名称。
-
-:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :tiger: :watermelon: :wink: :zap:
-
-``` markdown
-:art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :tiger: :watermelon: :wink: :zap:
-```
 ---
 ## 流程图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（[Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid)）
 
