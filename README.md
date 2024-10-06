@@ -64,7 +64,7 @@
 - [x] 
 ```
 
-* [ ] 这是一个任务列表项
+- [ ] 这是一个任务列表项
 - [ ] 需要在前面使用列表的语法
 - [ ] normal **formatting**, @mentions, #1234 refs
 - [ ] 未完成
@@ -475,7 +475,7 @@ latex公式的语法参考：https://www.latex-project.org/help/documentation/
 
 1. 使用Unicode编码：在markdown编辑器中输入对应的Unicode编码，如：`&#x1F600;`，&#x1F600;即可插入一个笑脸。
 
-2. 使用Emoji语法：在markdown编辑器中输入`:smile:`，:smile:即可插入一个笑脸。(需要在编辑器中安装Emoji插件)
+2. 使用Emoji语法：在markdown编辑器中输入`:smile:`，:smile:即可插入一个笑脸。(需要在VSCode中安装Emoji插件才能预览)([Markdown Emmoji](https://github.com/mjbvz/vscode-markdown-emoji))
 
 Emoji语法参考：https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
@@ -501,3 +501,109 @@ canvas绘制的表情符号
 :art: :apple: :birthday: :car: :cat: :dog: :elephant: :fire: :fish: :frog: :hat: :heart: :icecream: :monkey: :moon: :mountain: :octopus: :pizza: :rabbit: :santa: :school: :snowflake: :sparkler: :star: :sun: :tiger: :watermelon: :wink: :zap:
 ```
 ---
+## 流程图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（[Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid)）
+
+```mermaid
+graph LR
+A[开始] --> B[进行]
+B --> C[结束]
+```
+
+``` markdown
+```mermaid
+graph LR
+A[开始] --> B[进行]
+B --> C[结束]
+```
+---
+
+## 时序图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（[Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid)）
+
+```mermaid
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts <br/>prevail...
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
+
+``` markdown
+```mermaid
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts <br/>prevail...
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
+---
+
+## 甘特图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（[Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid)）
+
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekends
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2              :         des4, after des3, 5d
+section Critical tasks
+Completed task in the critical line :crit, done, 2014-01-06,24h
+Implement parser and jison          :crit, done, after des1, 2d
+Create tests for parser             :crit, active, 3d
+Future task in critical line        :crit, 5d
+Create tests for renderer           :2d
+Add to mermaid                      :1d
+section Documentation
+Describe gantt syntax               :active, a1, after des1, 3d
+Add gantt diagram to demo page      :after a1  , 20h
+Add another diagram to demo page    :doc1, after a1  , 48h
+section Last section
+Describe gantt syntax               :after doc1, 3d
+Add gantt diagram to demo page      :20h
+Add another diagram to demo page    :48h
+```
+
+``` markdown
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekends
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2              :         des4, after des3, 5d
+section Critical tasks
+Completed task in the critical line :crit, done, 2014-01-06,24h
+Implement parser and jison          :crit, done, after des1, 2d
+Create tests for parser             :crit, active, 3d
+Future task in critical line        :crit, 5d
+Create tests for renderer           :2d
+Add to mermaid                      :1d
+section Documentation
+Describe gantt syntax               :active, a1, after des1, 3d
+Add gantt diagram to demo page      :after a1  , 20h
+Add another diagram to demo page    :doc1, after a1  , 48h
+section Last section
+Describe gantt syntax               :after doc1, 3d
+Add gantt diagram to demo page      :20h
+Add another diagram to demo page    :48h
+```
+---
+
