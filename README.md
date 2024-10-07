@@ -30,11 +30,8 @@
     - [代码块展示](#代码块展示)
   - [转义字符](#转义字符)
   - [katex公式](#katex公式)
-  - [katex公式的语法参考：https://katex.org/docs/supported.html](#katex公式的语法参考httpskatexorgdocssupportedhtml)
   - [mathjax公式](#mathjax公式)
-  - [mathjax公式的语法参考：https://docs.mathjax.org/en/v2.7-latest/tex.html](#mathjax公式的语法参考httpsdocsmathjaxorgenv27-latesttexhtml)
   - [latex公式(markdown不支持)](#latex公式markdown不支持)
-  - [latex公式的语法参考：https://www.latex-project.org/help/documentation/](#latex公式的语法参考httpswwwlatex-projectorghelpdocumentation)
   - [支持的HTML标签](#支持的html标签)
   - [markdown使用Emoji表情](#markdown使用emoji表情)
   - [流程图（VSCode markdown预览不支持）（需要安装插件来自 mermaid）（Markdown Preview Mermaid Support）](#流程图vscode-markdown预览不支持需要安装插件来自-mermaidmarkdown-preview-mermaid-support)
@@ -388,6 +385,7 @@ $$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 ```
 
 katex公式的语法参考：<https://katex.org/docs/supported.html>
+
 ---
 
 ## mathjax公式
@@ -406,6 +404,7 @@ $$\begin{align*}
 \end{align*}$$
 ```
 mathjax公式的语法参考：https://docs.mathjax.org/en/v2.7-latest/tex.html
+
 ---
 ## latex公式(markdown不支持)
 
@@ -423,6 +422,7 @@ mathjax公式的语法参考：https://docs.mathjax.org/en/v2.7-latest/tex.html
 \end{align*}
 ```
 latex公式的语法参考：https://www.latex-project.org/help/documentation/
+
 ---
 
 ## 支持的HTML标签
